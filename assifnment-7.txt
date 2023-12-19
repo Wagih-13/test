@@ -1,0 +1,214 @@
+// q-1
+//------
+// let inp = window.prompt("enter number");
+// console.log(inp);
+//----------------------------------------------------------------------------------
+
+//q-2
+//------
+// let inp = window.prompt("enter number");
+// if (inp % 3 == 0 && inp % 4 == 0) {
+//   console.log("yes");
+// } else {
+//   console.log("no");
+// }
+//----------------------------------------------------------------------------------
+
+//q-3
+//------
+// let inp_1 = window.prompt("enter first number");
+// let inp_2 = window.prompt("enter second number");
+// if (inp_1 < inp_2) {
+//   console.log(inp_2);
+// } else {
+//   console.log(inp_1);
+// }
+//----------------------------------------------------------------------------------
+
+//q-4
+//------
+// let inp = window.prompt("enter number");
+// if (inp < 1) {
+//   console.log("negative");
+// } else {
+//   console.log("positive");
+// }
+//----------------------------------------------------------------------------------
+
+//q-5
+//------
+// let max = 0;
+// let min = 0;
+
+// for (let i = 0; i < 3; i++) {
+//   let inp = window.prompt("enter number");
+//   if (i == 1) {
+//     min = inp;
+//   }
+//   if (inp > max) {
+//     max = inp;
+//   }
+//   if (inp < min) {
+//     min = inp;
+//   }
+// }
+
+// console.log("max is = " + max);
+// console.log("min is = " + min);
+//----------------------------------------------------------------------------------
+
+//q-6
+//------
+// let inp = window.prompt("enter intger number");
+// if (inp % 2 == 0) {
+//   console.log("even");
+// } else {
+//   console.log("odd");
+// }
+//----------------------------------------------------------------------------------
+
+//q-7
+//------
+// let inp = window.prompt("enter character");
+// switch (inp) {
+//   case "a":
+//     console.log("vowel");
+//     break;
+//   case "e":
+//     console.log("vowel");
+//     break;
+//   case "l":
+//     console.log("vowel");
+//     break;
+//   case "o":
+//     console.log("vowel");
+//     break;
+//   case "u":
+//     console.log("vowel");
+//     break;
+//   default:
+//     console.log("consonant");
+// }
+//----------------------------------------------------------------------------------
+
+//q-8
+//------
+// let inp = window.prompt("enter number");
+// for (let i = 0; i <= inp; i++) {
+//   console.log(i);
+// }
+//----------------------------------------------------------------------------------
+
+//q-9
+//------
+// let inp = window.prompt("enter number");
+// for (let i = 1; i <= 12; i++) {
+//   console.log(inp * i);
+// }
+//----------------------------------------------------------------------------------
+
+//q-10
+//------
+// let inp = window.prompt("enter number");
+// for (let i =1 ; i <= inp ; i++){
+//     if (i %2 == 0){
+//         console.log(i)
+//     }
+// }
+//----------------------------------------------------------------------------------
+
+//q-11
+//------
+// let inp_1 = window.prompt("enter first number");
+// let inp_2 = window.prompt("enter second number");
+// console.log(inp_1 ** inp_2);
+//----------------------------------------------------------------------------------
+
+//q-12
+//------
+// let Total = 0;
+
+// for (let i = 1; i <= 5; i++) {
+//   let inp = window.prompt("Enter the grade for subject number " + i);
+//   Total += +inp;
+// }
+
+// let avarige = Total / 5;
+// let Percentage = avarige * 100;
+
+// console.log("Total marks = " + Total);
+// console.log("Average Marks = " + avarige);
+// console.log("Percentage = " + Percentage);
+//----------------------------------------------------------------------------------
+
+//q-13
+//------
+// let inp = window.prompt("enter month number");
+
+// switch (inp) {
+//   case "1":
+//     console.log(31);
+//     break;
+//   case "2":
+//     console.log(28);
+//     break;
+//   case "3":
+//     console.log(31);
+//     break;
+//   case "4":
+//     console.log(30);
+//     break;
+//   case "5":
+//     console.log(31);
+//     break;
+//   case "6":
+//     console.log(30);
+//     break;
+//   case "7":
+//     console.log(31);
+//     break;
+//   case "8":
+//     console.log(31);
+//     break;
+//   case "9":
+//     console.log(30);
+//     break;
+//   case "10":
+//     console.log(31);
+//     break;
+//   case "11":
+//     console.log(30);
+//     break;
+//   case "12":
+//     console.log(31);
+//     break;
+//   default:
+//     console.log("eror");
+// }
+//----------------------------------------------------------------------------------
+
+//q-14
+//------
+// let inp = window.prompt("enter your mark");
+
+// switch (true) {
+//   case inp < 40:
+//     console.log("F");
+//     break;
+//   case inp >= 40 && inp < 60:
+//     console.log("E");
+//     break;
+//   case inp >= 60 && inp < 70:
+//     console.log("D");
+//     break;
+//   case inp >= 70 && inp < 80:
+//     console.log("C");
+//     break;
+//   case inp >= 80 && inp < 90:
+//     console.log("B");
+//     break;
+//   case inp >= 90:
+//     console.log("A");
+//     break;
+// }
+//----------------------------------------------------------------------------------
